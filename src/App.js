@@ -24,7 +24,7 @@ export default function App() {
   }
   return (
     <div className="App">
-      <h1> 📚 Goodbooks </h1>
+      <h1><img src='https://cdn4.iconfinder.com/data/icons/planner-color/64/good-book-512.png' alt='goodbook icon' width='60'/> Goodbooks </h1>
       <p style={{ fontSize: "smaller" }}>
         {" "}
         Checkout my favorite books. Select a genre to get started{" "}
@@ -51,7 +51,7 @@ export default function App() {
       <hr />
       <div style={{ textAlign: "left" }}>
       {bookDB[selectedGenre].map((book)=>(
-                <img src={book.img} width='200' height='200' style={{display:'inline-block',margin:'0 0 0 2%'}} key={book.name}/>
+                <img src={book.img} width='200' height='200' style={{display:'inline-block',margin:'0 0 0 2%'}} key={book.name} alt='logo'/>
             ))}
        
       </div>
