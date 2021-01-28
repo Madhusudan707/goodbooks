@@ -4,8 +4,8 @@ import { useState } from "react";
 
 const bookDB = {
   JavaScript: [
-    { nane:"Eloquent Javascript",img:"https://eloquentjavascript.net/img/cover.jpg" },
-    { nane:"You Dont Know JavaScript",img:"https://images-na.ssl-images-amazon.com/images/I/71mKvD89oEL.jpg" },
+    { name:"Eloquent Javascript",img:"https://eloquentjavascript.net/img/cover.jpg" },
+    { name:"You Dont Know JavaScript",img:"https://images-na.ssl-images-amazon.com/images/I/71mKvD89oEL.jpg" },
   ],
 
   Startup: [
